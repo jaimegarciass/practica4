@@ -32,7 +32,7 @@ app.get('/loginAdmin', function(req, res){
 
 
 
-//LOGIN USUARIO GET
+//LOGIN USUARIO GET form
 //============================================================================================================================
 app.get('/loginUsuario', function(req, res){
 
