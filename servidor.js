@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express');//uso de interfaces html
 var bodyParser = require('body-parser');
 var pg = require("pg");
 
