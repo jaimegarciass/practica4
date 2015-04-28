@@ -5,7 +5,7 @@ var pg = require("pg");//Modulo para conectar con la base de datos
 var app = express();
 app.use(bodyParser());
 
-var conString = "pg://postgres:P0s6mp672c@localhost:5432/Practica4";
+var conString = "pg://postgres:passwordc@localhost:5432/Practica4";
 var client = new pg.Client(conString);
 client.connect();
 
