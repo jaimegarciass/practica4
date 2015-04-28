@@ -1,5 +1,5 @@
 var express = require('express');//uso de interfaces html
-var bodyParser = require('body-parser');
+var bodyParser = require('body-parser');//manejo de formularios
 var pg = require("pg");
 
 var app = express();
