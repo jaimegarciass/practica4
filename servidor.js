@@ -1,6 +1,6 @@
 var express = require('express');//uso de interfaces html
 var bodyParser = require('body-parser');//manejo de formularios
-var pg = require("pg");
+var pg = require("pg");//Modulo para conectar con la base de datos
 
 var app = express();
 app.use(bodyParser());
